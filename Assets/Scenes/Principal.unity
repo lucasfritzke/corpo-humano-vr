@@ -622,7 +622,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   initialCamera: {fileID: 1930883906}
-  tourCameras: []
+  tourCameras:
+  - {fileID: 1417290871}
+  - {fileID: 551374585}
+  - {fileID: 1201905930}
   switchTime: 5
   pauseTime: 4
   returnToInitialAfterTour: 1
@@ -1304,7 +1307,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 9.167, y: 176.347, z: 360.836}
+  m_LocalEulerAnglesHint: {x: 10.377, y: 173.894, z: 360.705}
 --- !u!114 &1450525086
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1912,6 +1915,7 @@ MonoBehaviour:
   - {fileID: 1417290871}
   - {fileID: 551374585}
   - {fileID: 1201905930}
+  currentIndex: 0
   switchTime: 3
   pauseTime: 4
 --- !u!4 &1871595693
@@ -2049,7 +2053,7 @@ GameObject:
   - component: {fileID: 1930883907}
   - component: {fileID: 1930883906}
   m_Layer: 0
-  m_Name: Cam_PosicaoInicial
+  m_Name: Cam_Inicial
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2130,6 +2134,7 @@ SceneRoots:
   - {fileID: 1201905931}
   - {fileID: 1871595693}
   - {fileID: 617770910}
+  - {fileID: 1930883907}
   - {fileID: 1093801071}
   - {fileID: 1654592545}
   - {fileID: 1370057524}
@@ -2137,5 +2142,4 @@ SceneRoots:
   - {fileID: 979196125}
   - {fileID: 750906279}
   - {fileID: 1065354494}
-  - {fileID: 1930883907}
   - {fileID: 1357727992}
